@@ -24,7 +24,7 @@ Create a **Web Service** from this Git repository with these settings:
 | Build Command | `pip install -r requirements.txt` |
 | Start Command | `uvicorn main:app --host 0.0.0.0 --port $PORT` |
 
-After it is live, copy its public URL, for example `https://piano-chords-api.onrender.com`. Verify the API at `https://YOUR_API_URL/docs`.
+After it is live, copy its public URL, for example `https://piano-chords-api.onrender.com`. Verify the API by opening `https://piano-chords-api.onrender.com/docs` (replace the example domain with your own Render URL).
 
 ### 2. Deploy the Next.js frontend on Vercel
 
